@@ -12,18 +12,20 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
+     background-color: #a1d490;
      border: 1px dotted gray;
      padding: 20px;
 }
 
 .jumbotron {
+
 	position: relative;
 	background: none;
 }
 
 .jumbotron:after {
      content:"";
-     background: url("../images/lorempixel.jumbotron.jpeg");
+          background-color: #c4e9f5;
      opacity: 0.2;
      top: 0;
      left: 0;
@@ -38,11 +40,17 @@ body {
 }
 
 .project a {
+     background-color: #d0f5c4;
      text-align: center;
+     font-variant: small-caps;
 }
 
 
 .jumbotron p.active{
 color: #1f6ddd;
 
+}
+
+.img{
+     width:60%;
 }
